@@ -8,7 +8,7 @@ export function Pagination() {
       justify='space-between'
       alignItems='center'
       spacing='6'
-      direction='row'
+      direction={['column', 'row']}
     >
       <Box>
         <strong>0</strong> - <strong>10</strong> de <strong>100</strong>
